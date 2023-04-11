@@ -2,14 +2,14 @@
 
 ## Modeling pokemon attacks!
 There is an abstract class, which has the attributes: num_pokedex (number), nombrePokemon (name), pesoPokemon (weight), sexo (gender), temporadaQueAparece (season) and type.
-Methods are implemented for the common attacks that most of them usually have, among them are: attackTackle(), attackScratch() and attackBite().
-In addition, interfaces were developed to contemplate the types of pokemons: Water, Fire, Grass and Electric.
+Methods are implemented for the common attacks that most of them usually have, among them are: atacarPlacaje(), atacarArañazo() y atacarMordisco().
+In addition, interfaces were developed to contemplate the types of pokemons: Water, Fire, Plant and Electric.
 
 After the interfaces, the classes that handle the main characters of the video game were created, which are the starter pokemons of the first season (Charmander, Bulbasaur and Squirtle) and Pikachu; To do this, keep in mind that:
 * Charmander is fire type
 * Bulbasaur is a plant type
 * Squirtle is a water type
-* Electric type Pikachu.
+* Pikachu is an electric type
 
 Once the abstract class and interfaces have been implemented, the corresponding methods are overwritten to adapt them to each Pokemon, displaying a message on the screen indicating which Pokemon it is and what attack it is performing.
 For example:
